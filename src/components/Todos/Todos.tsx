@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader } from "@material-ui/core";
 import React, { useContext } from "react";
 import { TodoContext } from "../../contexts/ListTodoContext/ListTodoContext";
-import FormAddTodo from "../../FormAddTodo/FormAddTodo";
+import FormAddTodo from "../FormAddTodo/FormAddTodo";
 import TodoItemCpn from "../TodoItem/TodoItem";
 function Todos() {
   const valueContext = useContext(TodoContext);
